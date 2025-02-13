@@ -1,5 +1,5 @@
 # Project Title
-POCKET GURU : one stop app for finding the mentor, 
+POCKET GURU : One stop app for finding the mentor. 
 
 ## Overview
 
