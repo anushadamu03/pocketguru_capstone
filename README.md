@@ -101,6 +101,7 @@ Build chat functionality
 Phase 3: Frontend Development (Week 3)
 Develop UI components for authentication, mentor search, and chat.
 Integrate frontend with backend using Axios.
+
 ---
 
 ## Future Implementations
