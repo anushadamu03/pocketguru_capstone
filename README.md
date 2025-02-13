@@ -27,15 +27,16 @@ Review & Rating System: Users can rate and review mentors to ensure quality inte
 
 Frontend
 
-React.js (UI Components, routing)
-Axios (API handling)
+React.js (UI Components, routing),
+Axios (API handling),
 CSS/Styled Components (Styling & responsiveness)
 
 Backend
 
-Node.js + Express.js (REST API & authentication)
-JWT (Secure user authentication)
-Knex.js + MySQL (Database ORM & management)
+Node.js + Express.js (REST API & authentication),
+JWT (Secure user authentication),
+Knex.js
+
 Database
 
 MySQL (Data storage for user profiles, chats, reviews)
