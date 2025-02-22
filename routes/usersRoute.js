@@ -7,7 +7,6 @@ const jwt = require("jsonwebtoken");
 const { v4: uuidv4 } = require("uuid");
 route.post("/register", async (req, res) => {
   const { name, email, password, expertise, bio,role } = req.body;
-  // console.log("Register==",name, email, password, expertise, bio, role)
 
   try {
     const existingUser = await db("users").where({ email }).first();
@@ -56,7 +55,7 @@ route.post("/login", async (req, res) => {
       expiresIn: "1h",
     });
 
-    res.json({ message: "Login successful", token });
+    res.json({ message: "Login successful", token, ...user });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

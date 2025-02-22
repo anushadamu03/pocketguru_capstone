@@ -17,15 +17,15 @@ module.exports = {
     migrations: {
       directory: './migrations'
     },
-    
+
   },
 
   staging: {
     client: 'mysql2',
     connection: {
       database: 'my_db',
-      user:     'root',
-      password: 'Password'
+      user:     'username',
+      password: 'password'
     },
     pool: {
       min: 2,
@@ -36,6 +36,6 @@ module.exports = {
     }
   },
 
-  
+ 
 
 };
