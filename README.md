@@ -23,7 +23,6 @@ Filtering & Search: Users can search for mentors based on domain, skills, and ex
 
 Communication System: Chat system supporting text.
 
-Review & Rating System: Users can rate and review mentors to ensure quality interactions.
 
 ## Implementation
 
@@ -52,11 +51,9 @@ Home Page : Introduction to the platform, call-to-action for login/signup.
 
 Dashboard : Displays available mentors and search filters.
 
-Mentor Profile Page : Detailed mentor bio, expertise, ratings, and booking options.
+Mentor Profile Page : Detailed mentor bio and expertise
 
 Chat Page :Secure chat interface for mentee-mentor communication.
-
-Settings Page : Profile management, availability, and notifications.
 
 
 ### Data
@@ -64,11 +61,10 @@ Settings Page : Profile management, availability, and notifications.
 
 Users (ID, name, email, role, password, bio)
 
-Mentors (ID, user_id, domain, experience, ratings, availability)
+Mentors (ID, user_id, domain, experience)
 
-Chats (ID, sender_id, receiver_id, message, timestamp)
+Chats (ID, sender_id, receiver_id, message, time)
 
-Reviews (ID, user_id, mentor_id, rating, comment, timestamp)
 
 ### Endpoints
 
